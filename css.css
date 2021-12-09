@@ -1,0 +1,51 @@
+
+.temaFundo{
+    width: 100%;
+    height: 400px;
+    background-image: url("img/south-park-season-24-confirmed-scaled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fundo{
+    border-radius: 20px;
+    opacity: 70%;
+    width: 70%;
+    height: 40%;
+    background: whitesmoke;
+}
+.textoTitulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.texto{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.fundo2{
+    margin: auto;
+    background: rgb(253, 248, 248);
+}
+.sobre{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.cardCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+.img-Tamanho{
+    object-fit: cover;
+}
