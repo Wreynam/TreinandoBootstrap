@@ -1,11 +1,11 @@
 
 .temaFundo{
     width: 100%;
-    height: 400px;
+    height: 30vw;
     background-image: url("img/south-park-season-24-confirmed-scaled.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100%;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -17,11 +17,12 @@
     border-radius: 20px;
     opacity: 70%;
     width: 70%;
-    height: 40%;
+    height: auto;
     background: whitesmoke;
 }
 .textoTitulo{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5vw;
 }
 .texto{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
